@@ -54,15 +54,18 @@
   "cds": {
     "requires": {
       "db": {
-        "kind": "sql",
-        "multiTenant": true,
-        "vcap": {
-          "label": "service-manager"
-        }
+        "kind": "sql"
       },
       "uaa": {
         "kind": "xsuaa",
         "credentials": {}
+      },
+      "API_BUSINESS_PARTNER": {
+        "kind": "odata",
+        "model": "srv\\external\\API_BUSINESS_PARTNER",
+        "credentials": {
+          "destination": "cap-api098"
+        }
       }
     },
     "hana": {

@@ -205,8 +205,8 @@ resources:
         appUrls:
           getDependencies: '~{app-binding/app-url}/callback/v1.0/dependencies'
           onSubscription: '~{app-binding/app-url}/callback/v1.0/tenants/{tenantId}'
-        displayName: 'Risk Management (${space})'
-        description: Risk Management SaaS Application
-        category: CAP                
+        displayName: 'Risk Management Farozan(${space})'
+        description: Risk Management SaaS Application Farozan
+        category: CAP Farozan
 
 
